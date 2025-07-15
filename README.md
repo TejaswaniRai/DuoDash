@@ -44,12 +44,6 @@ DUODASH/
 │   └── script.js
 └── README.md
 
-## 📸 Screenshots
-
-| Landing Page        | Tic Tac Toe          | Rock Paper Scissors      |
-|---------------------|---------------------_|------------------------|
-|  <img width="200" height="100" alt="Screenshot 2025-07-15 142120" src="https://github.com/user-attachments/assets/342d71d3-ec66-46dc-bd1d-897d57ebbe0d" | /<img width="200" height="100" alt="Screenshot 2025-07-15 142147" src="https://github.com/user-attachments/assets/caa1e71d-3741-43f5-a738-fe9c718d7aeb" /> |<img width="200" height="100" alt="Screenshot 2025-07-15 142157" src="https://github.com/user-attachments/assets/ce80c948-b2f1-44ba-8ca0-ac0dab4ff189" /> 
->| 
 
 
 
