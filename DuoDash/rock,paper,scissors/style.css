@@ -1,0 +1,98 @@
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    text-align: center;
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+  h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-shadow: 0 0 5px #000;
+  }
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .score {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .choice-btn {
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 1.5em;
+    margin: 8px;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .choice-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #fff;
+  }
+  .result-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .pick {
+    text-align: center;
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  .result-text {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+    text-shadow: 0 0 5px #000;
+  }
+  .btn-small {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 0.9em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-small:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #c0392b;
+  }

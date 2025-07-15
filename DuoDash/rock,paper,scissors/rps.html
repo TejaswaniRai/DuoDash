@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Paper Scissors ✨</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Rock Paper Scissors</h1>
+  <div class="scoreboard">
+    <div class="score">Player: <span id="playerScore">0</span></div>
+    <div class="score">Computer: <span id="computerScore">0</span></div>
+    <div class="score">Draws: <span id="draws">0</span></div>
+  </div>
+
+  <div class="choices">
+    <button class="choice-btn" onclick="playerPick('rock')">✊</button>
+    <button class="choice-btn" onclick="playerPick('paper')">✋</button>
+    <button class="choice-btn" onclick="playerPick('scissors')">✌️</button>
+  </div>
+
+  <div class="result-section">
+    <div class="pick">
+      <div>You picked</div>
+      <div class="circle" id="playerChoice">?</div>
+    </div>
+    <div class="result-text" id="resultText">VS</div>
+    <div class="pick">
+      <div>Computer picked</div>
+      <div class="circle" id="computerChoice">?</div>
+    </div>
+  </div>
+
+  <button class="btn-small" onclick="resetGame()">Reset Score</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    max-width: 350px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 10px #ff6a00;
+    margin-bottom: 20px;
+  }
+  .menu button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .menu button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #2575fc;
+  }
+  select {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    width: 60%;
+  }
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  .score {
+    background: rgba(255,255,255,0.3);
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin: 4px;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .status {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 0 0 5px #333;
+  }
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 8px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .cell {
+    background: #fff;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  .cell:hover {
+    background: #ffe0b2;
+    transform: scale(1.05);
+  }
+  .cell.x { color: #ff3e4d; }
+  .cell.o { color: #2e86de; }
+  .btn-small {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 6px;
+    font-size: 0.9em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-small:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff4b2b;
+  }
+  .hidden { display: none; }

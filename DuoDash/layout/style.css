@@ -1,0 +1,70 @@
+  body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+  }
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  .cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 220px;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: translateY(-8px) rotateZ(-1deg);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+  }
+  .icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  .card h2 {
+    font-size: 1.5em;
+    margin: 0 0 15px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .play-btn {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  }
+  .play-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  }
