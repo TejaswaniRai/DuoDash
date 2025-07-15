@@ -30,18 +30,19 @@ Built using **HTML, CSS & JavaScript**, designed to be lightweight, dynamic and 
 ---
 
 ## 📂 Folder Structure
-
 DUODASH/
-├── layout/
-│ ├── index.html ← landing page
-│ └── style.css ← landing page styles
-├── tictactoe/
-│ ├── ttt.html
-│ ├── style.css
-│ └── script.js
-├── rock,paper,scissors/
-│ ├── rps.html
-│ ├── style.css
-│ └── script.js
+├── layout/                  # landing page folder
+│   ├── index.html
+│   └── style.css
+├── tictactoe/               # tic tac toe game
+│   ├── ttt.html
+│   ├── style.css
+│   └── script.js
+├── rock,paper,scissors/     # rock paper scissors game
+│   ├── rps.html
+│   ├── style.css
+│   └── script.js
 └── README.md
+<img width="1035" height="800" alt="image" src="https://github.com/user-attachments/assets/9d15d8ca-2e30-41e2-a663-68faebd9aef6" />
+
 
